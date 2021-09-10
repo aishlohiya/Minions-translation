@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #FBBF24;
+    --text-color: black;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+#translate-input {
+    width: 80%;
+    height: 20vh;
+    margin: 1rem;
+    border: 2px solid var(--text-color);
+    display: block;
+    padding: 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#translate-button {
+    background-color: var(--primary-color);
+    width: auto;
+    height: 12vh;
+    border: 2px solid var(--text-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.translated {
+    text-align: center;
+    padding: 1rem;
+}
+
+#translate-output {
+    width: 80%;
+    height: 20vh;
+    margin: 1rem;
+    border: 2px solid var(--text-color);
+    display: block;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 20px;
+}
